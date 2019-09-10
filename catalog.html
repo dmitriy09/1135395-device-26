@@ -9,6 +9,7 @@
   		<a href="index.html">
   			<img src="img/logo.svg" width="163" height="35" alt="Логотип интернет магазина Device">
   		</a>
+
   		<nav>
   			<input type="search" placeholder="Поиск по сайту">
   			<ul>
@@ -29,7 +30,7 @@
   			</ul>
   			<ul>
   				<li>
-  					<a href="">Каталог товаров <span>+</span></a>
+  					<a href="">Каталог товаров<span>+</span></a>
   				</li>
   			</ul>
   			<ul>
@@ -44,7 +45,9 @@
   				</li>
   			</ul>
   		</nav>
+
   	</header>
+
     <main>
     <h1>Моноподы для селфи</h1>
     <ul>
@@ -53,7 +56,10 @@
       <li>Моноподы для селфи</li>
     </ul>
     <h2>Фильтры</h2>
+
     <form>
+      <h3>Стоймость</h3>
+      <input type="range" min="0" max="10000" step="1" value="5000">
       <h3>Цвет</h3>
       <p><input type="checkbox" checked> Черный</p>
       <p><input type="checkbox"> Белый</p>
@@ -65,55 +71,84 @@
       <p><input type="radio"> Нет</p>
       <button type="button">Показать</button>
     </form>
+
     <section>
+      <div>
+        <h2>Сортировка:</h2>
+        <ul>
+          <li>По цене</li>
+          <li>По типу</li>
+          <li>По популярности</li>
+        </ul>
+      </div>
       <ul>
         <li>
           <a href="">
             <img src="https://via.placeholder.com/360x380" width="360" height="380" alt="Фото Любительская селфи-палка">
           </a>
-          <p><a>Любительская селфи-палка</a></p>
-          <p>500 руб.</p>
-          <button type="button">В корзину</button>
-          <button type="button">Добавить к сравнению</button>
+          <a>Любительская селфи-палка</a>
+          <span>500 руб.</span>
+          <div>
+            <button type="button">В корзину</button>
+            <button type="button">Добавить к сравнению</button>
+          </div>
         </li>
+
         <li>
           <a href="">
             <img src="https://via.placeholder.com/360x380" width="360" height="380" alt="Фото Профессиональная селфи-палка ">
           </a>
-          <p><a>Профессиональная селфи-палка </a></p>
-          <p>1 500 руб.</p>
-          <button type="button">В корзину</button>
-          <button type="button">Добавить к сравнению</button>
+          <a>Профессиональная селфи-палка </a>
+          <span>1 500 руб.</span>
+          <div>
+            <button type="button">В корзину</button>
+            <button type="button">Добавить к сравнению</button>
+          </div>
         </li>
+
         <li>
           <a href="">
             <img src="https://via.placeholder.com/360x380" width="360" height="380" alt="Фото Непотопляемая селфи-палка">
           </a>
-          <p><a>Непотопляемая селфи-палка</a></p>
-          <p>2 500 руб.</p>
-          <button type="button">В корзину</button>
-          <button type="button">Добавить к сравнению</button>
+          <a>Непотопляемая селфи-палка</a>
+          <span>2 500 руб.</span>
+          <div>
+            <button type="button">В корзину</button>
+            <button type="button">Добавить к сравнению</button>
+          </div>
         </li>
+
         <li><a href="">
             <img src="https://via.placeholder.com/360x380" width="360" height="380" alt="Фото Селфи-палка «Следуй за мной»">
           </a>
-          <p><a>Селфи-палка «Следуй за мной»</a></p>
-          <p>4 900 руб.</p>
-          <button type="button">В корзину</button>
-          <button type="button">Добавить к сравнению</button></li>
+          <a>Селфи-палка «Следуй за мной»</a>
+          <span>4 900 руб.</span>
+          <div>
+            <button type="button">В корзину</button>
+            <button type="button">Добавить к сравнению</button>
+          </div>
+        </li>
       </ul>
+      <div>
+        <button type="button">Назад</button>
+        <ul>
+         <li>1</li>
+         <li><a href="">2</a></li>
+         <li><a href="">3</a></li>
+        </ul>
+        <button type="button">Вперед</button>
+      </div>
     </section>
+  </main>
 
-
-
-    </main>
     <footer>
       <section>
-        <a href="index.html">
+        <a href="/">
          <img src="img/logo-footer.svg" width="163" height="35" alt="Логотип">
         </a>
         <p>г. Москва, ул. Строителей, 15</p>
       </section>
+
       <p>Тел.: +7 (495) 495-95-95</p>
       <ul>
         <li><a href="">Доставка</a></li>
@@ -132,6 +167,5 @@
       </ul> 
       <p><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" alt="Логотип HTML Academy"></a></p>
     </footer>
-
   </body>
 </html>
