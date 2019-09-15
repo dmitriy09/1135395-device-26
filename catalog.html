@@ -80,8 +80,8 @@
     </ul>
 
     <section>
-      <h2>Фильтры</h2>
-      <form>
+        <h2>Фильтры</h2>
+        <form>
         <h3>Стоймость</h3>
         <input type="range" min="0" max="10000" step="1" value="5000">
         <fieldset>
@@ -126,14 +126,20 @@
       </form>
     </section>
     
-      <div>
-        <h2>Сортировка:</h2>
+    <div>
+      <h2>Сортировка:</h2>
         <ul>
           <li>По цене</li>
-          <li>По типу</li>
-          <li>По популярности</li>
+          <li><a href="">По типу</a></li>
+          <li><a href="">По популярности</a></li>
         </ul>
-      </div>
+        <div>
+          <label class="visually-hidden" for="sort-up">по возростанию</label>
+          <input id="sort-up" type="radio" name="sortup">
+          <label class="visually-hidden" for="sort-down">по убыванию</label>
+          <input id="sort-down" type="radio" name="sortdown">
+        </div>
+    </div>
 
     <section>
       <h2 class="visually-hidden">Каталог моноподов для селфи</h2>
